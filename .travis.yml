@@ -1,12 +1,10 @@
 language: java
 jdk:
   - oraclejdk8
+  
+install: ant deps
 
 script:
   - ant test  
   
-sudo: false
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
+
