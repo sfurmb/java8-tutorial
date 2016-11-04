@@ -7,4 +7,4 @@ install: ant deps
 script:
   - ant test  
   
-
+sudo: required
